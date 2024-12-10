@@ -1,0 +1,59 @@
+{
+    "events": [
+      {
+        "date": "Aug 28",
+        "day": "Thursday",
+        "details": [
+          {
+            "color": "green",
+            "name": "ABC EVENT NAME",
+            "organizer": "Organizer Name",
+            "type": "Solo and Duo",
+            "time": "10:00 am",
+            "venue": "Venue",
+            "contact": "12345-12345"
+          },
+          {
+            "color": "red",
+            "name": "ABC EVENT NAME",
+            "organizer": "Organizer Name",
+            "type": "Solo and Duo",
+            "time": "10:00 am",
+            "venue": "Venue",
+            "contact": "12345-12345"
+          }
+        ]
+      },
+      {
+        "date": "Aug 31",
+        "day": "Wednesday",
+        "details": [
+          {
+            "color": "purple",
+            "name": "ABC EVENT NAME",
+            "organizer": "Organizer Name",
+            "type": "Solo and Duo",
+            "time": "10:00 am",
+            "venue": "Venue",
+            "contact": "12345-12345"
+          }
+        ]
+      },
+      {
+        "date": "Aug 28",
+        "day": "Thursday",
+        "details": [
+          {
+            "color": "orange",
+            "name": "ABC EVENT NAME",
+            "organizer": "Organizer Name",
+            "type": "Solo and Duo",
+            "time": "10:00 am",
+            "venue": "Venue",
+            "contact": "12345-12345"
+          }
+        ]
+      }
+    ]
+  }
+  

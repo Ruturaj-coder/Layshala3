@@ -1,0 +1,40 @@
+.form-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .form-header img {
+    max-width: 100px;
+  }
+  .form-group.row {
+    margin-bottom: 1rem;
+  }
+  .photo-box {
+    border: 1px solid #000;
+    width: 150px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .preview-container {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .img-thumbnail {
+    max-width: 130px;
+    max-height: 160px;
+    margin: 5px 0;
+  }
+  .img-preview {
+    max-width: 150px; /* Adjust the size as needed */
+    max-height: 150px; /* Adjust the size as needed */
+    margin-top: 10px;
+  }
+  
+  

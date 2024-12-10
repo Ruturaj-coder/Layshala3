@@ -1,0 +1,40 @@
+const mongoose = require("mongoose");
+
+const registrationSchema = new mongoose.Schema({
+  venue: String,
+  date: Date,
+  studentName: { type: String, required: true },
+  dob: Date,
+  age: Number,
+  school: String,
+  grade: String,
+  college: String,
+  occupation: String,
+  gender: String,
+  maritalStatus: String,
+  aadhaarNo: String,
+  panNo: String,
+  religion: String,
+  caste: String,
+  nationality: String,
+  previousDanceEducation: String,
+  guruName: String,
+  examsAppeared: String,
+  gharana: String,
+  parentDetails: {
+    fatherName: String,
+    fatherOccupation: String,
+    motherName: String,
+    motherOccupation: String,
+  },
+  homeAddress: String,
+  phonePrimary: { type: String, required: true },
+  phoneAlternate: String,
+  email: { type: String, required: true, unique: true },
+  emergencyContact: { type: String, required: true },
+  passportPhoto: String,
+  password: { type: String, required: true },
+  image: { type: String, required: true },
+});
+
+module.exports = mongoose.model("Registration", registrationSchema);
